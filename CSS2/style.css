@@ -21,8 +21,6 @@ button{
 }
 
 .header{
-    width: 90%;
-    margin: 0 auto;
     padding: 0.5rem 0;
     display: flex;
     justify-content: space-between;
@@ -58,7 +56,28 @@ button{
     justify-content: flex-end;
 }
 
+.hero{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.hero__title{
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    max-width: 25ch;
+    margin-inline: auto;
+}
+
+.hero__text{
+    font-size: 1.2rem;
+    max-width: 50ch;
+    margin: 2rem auto;
+}
+
 .btn{
+    text-decoration: none;
+    display:inline-block;
     background: black;
     color: white;
     border: none;
@@ -68,6 +87,11 @@ button{
 
 .btn:hover{
     transform: translateY(-1px);
+}
+
+.container{
+    width: 90%;
+    margin-inline: auto;
 }
 
 
