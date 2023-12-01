@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+button{
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.header__menu{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__link{
+    background: none;
+    text-decoration: none;
+}
+
+.header__link:hover{
+    text-decoration: underline;
+}
+
+.header__btn-container{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.btn{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+}
+
+.btn:hover{
+    transform: translateY(-1px);
+}
+
+

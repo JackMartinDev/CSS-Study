@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+strong{
+    color: white;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.container{
+    padding: 16px;
+    width: 600px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: gray;    
+    margin: 100px auto 0;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.title{
+    color: white;
+    margin: 25px 0;
+}
+
+.text{
+    margin-bottom: 15px;
+    max-width: 60ch;
+}
+
+
+.btn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 125px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
