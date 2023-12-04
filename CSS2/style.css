@@ -20,6 +20,8 @@ button{
     font-family: inherit;
 }
 
+/* Header */
+
 .header{
     padding: 0.5rem 0;
     display: flex;
@@ -56,6 +58,7 @@ button{
     justify-content: flex-end;
 }
 
+/* Hero section */
 .hero{
     text-align: center;
     margin-top: 10rem;
@@ -75,6 +78,63 @@ button{
     margin: 2rem auto;
 }
 
+
+/* Pricing */
+
+.pricing{
+    margin: 10rem 0;
+}
+
+.pricing__title{
+    font-size: 2rem;
+}
+
+.pricing__subtitle{
+    width: 40ch;
+    margin-bottom: 1rem;
+}
+
+.pricing__card-container{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+
+.pricing__card{
+    background-color: black;
+    color:white;
+    min-height: 450px;
+    flex: 1;
+    border-radius: 10px;
+    padding:1.5rem;
+}
+
+.pricing__description{
+    color: lightgray;
+}
+
+.pricing__button{
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    margin: 1.5rem 0;
+    padding: 0.4rem 0;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.pricing__list{
+    margin-left: 1rem; 
+    color: lightgray;
+}
+
+.pricing li + li{
+    margin-top: 10px 
+}
+
+/* Utility classes */
 .btn{
     text-decoration: none;
     display:inline-block;
@@ -93,5 +153,4 @@ button{
     width: 90%;
     margin-inline: auto;
 }
-
 
