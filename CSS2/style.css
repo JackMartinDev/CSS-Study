@@ -87,6 +87,8 @@ button{
 
 .pricing__title{
     font-size: 2rem;
+    letter-spacing: -0.05em;
+    line-height: 1;
 }
 
 .pricing__subtitle{
